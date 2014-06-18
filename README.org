@@ -1,1 +1,18 @@
 Hark is a simple program for automatic grading of student submitted programs.
+
+* Introduction
+  The main purpose of Hark is to automatically run student solutions,
+  and compare the output of the student programs to the output of a
+  solution.
+
+  Hark will generate a summary file for each submission noting which
+  tests were passed, which were failed, and totalling up the number of
+  passed tests. Each test can be assigned a different weight.
+
+  It is also possible to run tests without comparing the output to
+  that of the solution script. This can be useful for testing
+  something which can not be automatically graded. The expected output
+  could be different depending upon the solution, for instance. While
+  these tests may not be able to be graded automatically it may still
+  be useful to collect their output. If the output of these tests is
+  collected it can be much easier for the grader to check the results.
